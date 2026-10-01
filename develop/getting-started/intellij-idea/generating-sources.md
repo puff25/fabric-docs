@@ -38,6 +38,12 @@ Click on "**Choose Sources...**" to open a file selector dialog. This dialog wil
 
 Select the file that ends with **`-sources`** and press **Open** to confirm the selection.
 
+::: warning
+
+In recent versions of IntelliJ IDEA, you cannot select the **-sources** file in the file selector dialog as it only shows directories. To remedy this you can either try to reload Gradle or follow the instructions described in this [Issue tracker](https://youtrack.jetbrains.com/articles/SUPPORT-A-4415/Attach-Sources-dialog-JAR-files-not-visible-in-IntelliJ-IDEA-2026.2).
+
+:::
+
 ![Choose Sources Dialog](/assets/develop/getting-started/intellij/choose-sources-dialog.png)
 
 You should now have the ability to search for references. If you are using a mapping set that contains Javadocs, like [Parchment](https://parchmentmc.org/) (for Mojang Mappings) or Yarn, you should now also see Javadocs.
